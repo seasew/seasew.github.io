@@ -1,0 +1,32 @@
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+ul.gallery {
+    margin: 0;
+}
+
+.gallery li {
+    width: 33%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.gallery img {
+    width: 98%;
+    height: auto;
+}
+
+.gallery-header {
+    margin-bottom: 10px;
+}
+
+.footer-item {
+    margin: 0px;
+    padding: 0px;
+}
